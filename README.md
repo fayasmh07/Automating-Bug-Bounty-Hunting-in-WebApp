@@ -2,6 +2,9 @@
 AUTOMATING BUG-BOUNTY HUNTING IN WEB APPLICATIONS
 </h1>
 
+![image](https://github.com/user-attachments/assets/313ab68b-6d8f-4b13-b1f3-dea55a65eb4b)
+
+
 The below code runs the neccessary recon and vulnaerability assessments for a Web Apllication Penetration Testing.
 ```bash
 #!/bin/bash
