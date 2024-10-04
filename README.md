@@ -31,7 +31,7 @@ domain_enum() {
 domain_enum
  
 scanner(){
-nuclei -t /home/masaud/Desktop/tools/fuzzing-templates/all_in_one/ -l "$domain/sources/parameters_with_equal.txt" #change according to your LOCAL PATH
+nuclei -t /home/meta/Desktop/Tools/fuzzing-templates/all_in_one/ -l "$domain/sources/parameters_with_equal.txt" #change according to your LOCAL PATH
 nuclei -l $domain/sources/live_domains.txt -o "$domain/sources/parameters_with_equal.txt"
 }
 scanner
